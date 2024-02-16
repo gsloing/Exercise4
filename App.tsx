@@ -1,70 +1,65 @@
-import { Text, View, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import {Text, 
+  View, 
+  Image, 
+  ScrollView, 
+  TextInput, 
+  StyleSheet,
+} from 'react-native';
 import React from 'react';
 
 const App = () => {
   return (
-    <View style={style.container}>
-      <Text style={style.title}> Welcome</Text>
-      <View style={style.inputContainer}>
-        <Text style={style.words}>  Username</Text>
+    <View>
+      <Text style={style.title}>Jangan Golput, Gunakan Hak Pilihmu!</Text>
+      <ScrollView>
         <TextInput
-        placeholder="Masukkan username anda"
-        style={style.input}
+        placeholder="Masukkan nama anda"
+        style={style.inputUsername}
         />
-      </View>
-      <View style={style.inputContainer}>
-        <Text style={style.words}>  Password</Text>
         <TextInput
-        placeholder="Masukkan username anda"
-        style={style.input}
+        placeholder="Masukkan pilihan anda"
+        style={style.inputUsername}
         />
+        <Text style={style.words}>Apapun pilihanmu, kita adalah saudara</Text>
+        <Text style={style.words}>sebangsa dan setanah air.</Text>
+        <Text style={style.title}> 1 </Text>
+        <Image
+          source={require('./assets/1.jpg')}
+          style={{width: 400,  height: 200}}
+        />
+        <Text style={style.title}> 2 </Text>
+        <Image
+          source={require('./assets/2.jpg')}
+          style={{width: 400,  height: 200}}
+        />
+        <Text style={style.title}> 3 </Text>
+        <Image
+          source={require('./assets/3.jpg')}
+          style={{width: 400,  height: 200}}
+        />
+        </ScrollView>
       </View>
-      <View style={style.inputContainer}></View>
-      <TouchableOpacity style={style.button}>
-        <Text style={style.buttonText}>Sign In</Text>
-      </TouchableOpacity>
-    </View>
   );
 };
 
 const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    padding: 20,
-  },
   title: {
-    fontSize: 30,
+    fontSize: 20,
     fontWeight: 'bold',
     color: 'black',
+    textAlign: 'center',
     marginTop: 10,
   },
-  words: {
-    fontSize: 17,
-    fontWeight: '500',
-    color: 'black',
+  words:{
+    fontSize: 15,
+    textAlign: 'center'
   },
-  inputContainer: {
-    marginTop: 25,
-  },
-  input: {
+  inputUsername: {
     borderColor: 'black',
     borderWidth: 1,
     margin: 10,
     borderRadius: 10,
-    padding: 12,
-  },
-  button: {
-    backgroundColor: '#E36414',
-    borderRadius: 10,
-    padding: 15,
-    alignItems: 'center',
-    marginTop: 20,
-  },
-  buttonText: {
-    fontSize: 13,
-    fontWeight: 'bold',
-    color: 'white',
+    padding: 10,    
   },
 });
 
