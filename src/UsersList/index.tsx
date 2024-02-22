@@ -78,5 +78,9 @@ const styles = StyleSheet.create({
   text: {
 
   },
-  
+
+  text1: {
+
+  },
+
 });
