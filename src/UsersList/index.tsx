@@ -60,6 +60,15 @@ export default function UsersList() {
 
 const styles = StyleSheet.create({
   container: {
+
   },
 
+  header: {
+
+  },
+
+  card: {
+
+  },
+  
 });
