@@ -74,4 +74,9 @@ const styles = StyleSheet.create({
   isiCard: {
 
   },
+
+  text: {
+
+  },
+  
 });
