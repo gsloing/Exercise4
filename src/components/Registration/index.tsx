@@ -122,11 +122,23 @@ const styles = StyleSheet.create({
   },
 
   textInput: {
-
+    fontSize: 14,
+    color: 'black',
+    fontWeight: '500',
+    lineHeight: 16.41,
   },
 
   button: {
-    
+    color: 'red',
+    backgroundColor: '#C238CE',
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 20,
+    borderRadius: 30,
+    width: '100%',
+    height: 45,
+    borderColor: '#ffffff',
   },
 
   textButton: {
