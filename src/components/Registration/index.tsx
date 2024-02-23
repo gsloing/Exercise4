@@ -85,7 +85,6 @@ const Registration = () => {
           value={phoneNumber}
           onChangeText={handlePhoneNumberChange}
         />
-
         <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.textButton}>Register</Text>
         </TouchableOpacity>
