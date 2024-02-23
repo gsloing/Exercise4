@@ -104,8 +104,12 @@ const styles = StyleSheet.create({
   },
 
   text2: {
+    fontSize: 36,
+    color: 'black',
+    fontWeight: '700',
+    marginBottom: 40,
+  },
    
-
   input: {
 
   },
