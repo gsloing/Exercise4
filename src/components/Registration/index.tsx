@@ -111,19 +111,40 @@ const styles = StyleSheet.create({
   },
    
   input: {
-
+    width: '100%',
+    borderWidth: 1,
+    borderColor: 'gray',
+    marginTop: 8,
+    marginBottom: 25,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    padding: 8,
   },
 
   textInput: {
-
+    fontSize: 14,
+    color: 'black',
+    fontWeight: '500',
+    lineHeight: 16.41,
   },
 
   button: {
-    
+    color: 'red',
+    backgroundColor: '#C238CE',
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 20,
+    borderRadius: 30,
+    width: '100%',
+    height: 45,
+    borderColor: '#ffffff',
   },
 
   textButton: {
-    
+    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '400',
   },
 });
 
