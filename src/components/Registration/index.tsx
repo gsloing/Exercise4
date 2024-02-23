@@ -61,7 +61,15 @@ const Registration = () => {
           value={username}
           onChangeText={handleUsernameChange}
         />
-        
+        <Text style={styles.textInput}>Email</Text>
+        <TextInput
+          style={styles.input}
+          placeholder="Masukan email anda"
+          keyboardType="email-address"
+          autoCapitalize="none"
+          value={email}
+          onChangeText={handleEmailChange}
+        />
 
         <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.textButton}>Register</Text>
