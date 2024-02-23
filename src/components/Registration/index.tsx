@@ -111,7 +111,14 @@ const styles = StyleSheet.create({
   },
    
   input: {
-
+    width: '100%',
+    borderWidth: 1,
+    borderColor: 'gray',
+    marginTop: 8,
+    marginBottom: 25,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    padding: 8,
   },
 
   textInput: {
