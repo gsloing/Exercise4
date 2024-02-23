@@ -70,6 +70,13 @@ const Registration = () => {
           value={email}
           onChangeText={handleEmailChange}
         />
+        <Text style={styles.textInput}>Address</Text>
+        <TextInput
+          style={styles.input}
+          placeholder="Masukan alamat anda"
+          value={address}
+          onChangeText={handleAddressChange}
+        />
 
         <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.textButton}>Register</Text>
