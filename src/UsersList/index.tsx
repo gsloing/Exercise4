@@ -83,6 +83,8 @@ const styles = StyleSheet.create({
   },
 
   isiCard: {
+    flexDirection: 'row',
+    margin: 3,
 
   },
 
