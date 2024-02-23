@@ -95,6 +95,9 @@ const styles = StyleSheet.create({
   },
 
   text1: {
+    color: '#000000',
+    fontSize: 16,
+    fontWeight: 'bold',
 
   },
 
