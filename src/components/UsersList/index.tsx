@@ -5,7 +5,6 @@ import axios from 'axios';
 export default function UsersList() {
 
   const [users, setUsers] = useState([]);
-
   useEffect(() => {
     axios.get("https://jsonplaceholder.typicode.com/users")
       .then((response) => setUsers(response.data))
@@ -95,4 +94,5 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
   },
+  
 });
