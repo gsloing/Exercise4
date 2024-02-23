@@ -54,37 +54,6 @@ const Registration = () => {
           value={name}
           onChangeText={handleNameChange}
         />
-        <Text style={styles.textInput}>Username</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Masukan username anda"
-          value={username}
-          onChangeText={handleUsernameChange}
-        />
-        <Text style={styles.textInput}>Email</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Masukan email anda"
-          keyboardType="email-address"
-          autoCapitalize="none"
-          value={email}
-          onChangeText={handleEmailChange}
-        />
-        <Text style={styles.textInput}>Address</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Masukan alamat anda"
-          value={address}
-          onChangeText={handleAddressChange}
-        />
-        <Text style={styles.textInput}>Phone Number</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Masukan nomor telepon anda"
-          keyboardType="phone-pad"
-          value={phoneNumber}
-          onChangeText={handlePhoneNumberChange}
-        />
 
         <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.textButton}>Register</Text>
@@ -103,21 +72,11 @@ const styles = StyleSheet.create({
    
 
   input: {
-    width: '100%',
-    borderWidth: 1,
-    borderColor: 'gray',
-    marginTop: 8,
-    marginBottom: 25,
-    paddingHorizontal: 10,
-    borderRadius: 10,
-    padding: 8,
+
   },
 
   textInput: {
-    fontSize: 14,
-    color: 'black',
-    fontWeight: '500',
-    lineHeight: 16.41,
+
   },
 
   button: {
