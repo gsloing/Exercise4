@@ -96,7 +96,11 @@ const Registration = () => {
 
 const styles = StyleSheet.create({
   container: {
-    
+    flex: 1,
+    marginTop: 30,
+    marginLeft: 20,
+    marginRight: 20,
+    padding: 5,
   },
 
   text2: {
