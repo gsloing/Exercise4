@@ -142,7 +142,9 @@ const styles = StyleSheet.create({
   },
 
   textButton: {
-    
+    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '400',
   },
 });
 
