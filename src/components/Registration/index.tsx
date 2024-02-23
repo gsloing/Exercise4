@@ -77,6 +77,14 @@ const Registration = () => {
           value={address}
           onChangeText={handleAddressChange}
         />
+        <Text style={styles.textInput}>Phone Number</Text>
+        <TextInput
+          style={styles.input}
+          placeholder="Masukan nomor telepon anda"
+          keyboardType="phone-pad"
+          value={phoneNumber}
+          onChangeText={handlePhoneNumberChange}
+        />
 
         <TouchableOpacity style={styles.button} onPress={handleSubmit}>
           <Text style={styles.textButton}>Register</Text>
