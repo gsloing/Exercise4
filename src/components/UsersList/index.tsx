@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#ffffff',
     padding: 20,
-
   },
 
   header: {
@@ -71,7 +70,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#000000',
     marginBottom: 40,
-
   },
 
   card: {
@@ -80,26 +78,21 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 15,
     marginBottom: 10,
-
   },
 
   isiCard: {
     flexDirection: 'row',
     margin: 3,
-
   },
 
   text: {
     color: '#000000',
     fontSize: 16,
-
   },
 
   text1: {
     color: '#000000',
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: 'bold',
-
   },
-
 });
